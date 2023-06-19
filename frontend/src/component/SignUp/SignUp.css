@@ -1,0 +1,171 @@
+.page-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.color-section {
+  width: 85%;
+  background-color: #00004b;
+  color: white;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  display: fixed;
+}
+
+.color-section h1 {
+  background-color: #18457C;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-field {
+  margin: 10px;
+  padding: 16px;
+  width: 67%;
+  margin-top: 1.5vh;
+  font-weight: 600;
+  font-size: 18px;
+  border: 1px solid  #606060;
+  border-radius: 5px;
+  outline-color: #00004b;
+}
+
+.submit-button {
+  background-color: #18457C;
+  color: white;
+  padding: 12px 32%;
+  width: 73%;
+  border-radius: 9px;
+  font-weight: 600;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+  display: flex;
+  transition: all 200ms ease-in-out;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+ .submit-button:focus, .submit-button:hover {
+  background-color: #00004b;
+  color: #E0EFFF;
+}
+
+.already-registered {
+  color: #18457C;
+  font-weight: bold;
+  font-size: large;
+} 
+
+.white-section {
+  width: 45%;
+  background-color: white;
+}
+
+.white-content {
+  padding: 200px 40px;
+  color: #18457C;
+}
+
+.p1 {
+  color: #606060;
+  margin-top: -0.98pc;
+  font-size: large;
+}
+
+.asterisk {
+  color: red;
+}
+
+.input-label {
+  padding-right: 58%;
+  font-weight: bold;
+  color: black;
+  margin-bottom: -10px;
+}
+
+.input-label-2 {
+  padding-right: 53%;
+  font-weight: bold;
+  color: black;
+  margin-bottom: -10px;
+}
+
+.input-label-4 {
+  padding-right: 47%;
+  font-weight: bold;
+  color: black;
+  margin-bottom: -10px;
+}
+
+.input-container {
+  margin-top: -0.7pc;
+}
+
+.text-danger {
+  color: red;
+  font-size: 16px;
+  padding-right: 47%;
+  white-space: nowrap;
+  padding-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: auto;
+}
+
+/* Media Queries for Laptops */
+@media only screen and (max-width: 1024px) {
+  .page-container {
+    justify-content: center;
+  }
+
+  .color-section {
+    width: 60%;
+  }
+
+  .white-section {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .page-container {
+    justify-content: center;
+  }
+
+  .color-section {
+    width: 80%;
+  }
+
+  .white-section {
+    width: 70%;
+  }
+
+  .input-field {
+    width: 90%;
+  }
+
+  .submit-button {
+    padding: 12px 20%;
+    width: 60%;
+  }
+
+  .input-label,
+  .input-label-2,
+  .input-label-4 {
+    padding-right: 40%;
+  }
+
+  .text-danger {
+    padding-right: 40%;
+  }
+}
+

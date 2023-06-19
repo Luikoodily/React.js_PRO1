@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+}
+
+.sidebar1 {
+  width: 60px;
+  background-color: #04040f;
+  transition: width 0.3s ease;
+}
+
+.sidebar1 .top_section {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.sidebar1 .top_section .logo {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.sidebar1 .top_section .bar {
+  margin-left: 10px;
+}
+
+.sidebar1 .top_section .bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidebar1 .top_section .bar img {
+  width: 40px;
+}
+
+.sidebar1 nav.sidebar-menu {
+  margin-top: 20px;
+}
+
+.sidebar1 nav.sidebar-menu .link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+
+.sidebar1 nav.sidebar-menu .link .icon {
+  margin-right: 10px;
+}
+
+.sidebar1 nav.sidebar-menu .link .link_text {
+  display: none;
+}
+
+.sidebar1 nav.sidebar-menu .link.active .link_text {
+  display: block;
+}
+
+.sidebar1 nav.sidebar-menu .link.active {
+  background-color: #ccc;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.new-project-page {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.new-project-page h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.new-project-page .form-group {
+  margin-bottom: 20px;
+}
+
+.new-project-page .form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.new-project-page .form-group input,
+.new-project-page .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.new-project-page .form-actions {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.new-project-page .form-actions button {
+  margin-left: 10px;
+}

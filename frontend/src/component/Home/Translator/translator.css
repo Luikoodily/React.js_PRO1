@@ -1,0 +1,168 @@
+/* Header */
+.header {
+    background-color: #18457C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+  }
+  
+  .logo-container {
+    margin-right:30px;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+  }
+  
+  .search-box {
+    position: fixed;
+    align-items: center;
+    left: 87%;
+  }
+  
+  .search-input {
+    padding: 6px;
+    margin-right: 10px;
+    border-radius: 0px;
+    border-color: none;
+   
+
+  }
+  
+  .search-button {
+    background-color: #ffff;
+    position: fixed;
+    right: 7px;
+    border-radius: 0px;
+    border-color: #ffff;
+    padding: 1px;
+    cursor: pointer;
+    padding-left: 1%;
+    top: 1.4%;
+  }
+
+  .search-button img {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 1%;
+  }
+
+  /* .submit-button:focus,button:hover{
+    background-color: #00004b;
+    color: #E0EFFF;
+  } */
+  
+  /* Content */
+  .content {
+    margin-left: 150px; 
+    padding: 1px;
+  }
+  
+  /* Data Table */
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .data-table th {
+    background-color: #606060;
+    color: white;
+  }
+  
+  .data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .data-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background-color: #00004B;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    top: 10;
+    right: 100;
+  }
+
+
+.sidebar-icon {
+  margin-bottom: 0px;
+  align-items: center;
+  border-radius: 1%;
+  border: 2px solid white;
+  width: 99px;
+  height: 50px;
+  padding: 25px;
+}
+
+
+.sidebar-menu-button:hover {
+  background-color: #18457C;
+}
+
+
+.sidebar-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.sidebar-icon p {
+  color: white;
+  white-space: nowrap;
+  font-size: 15px;
+  font: bold;
+  font-weight: 600;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #18457C;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media Queries for Laptops */
+@media only screen and (max-width: 1366px) {
+  .search-box {
+    left: auto;
+    right: 10px;
+  }
+
+  .search-button {
+    right: 30px;
+  }
+
+  .content {
+    margin-left: 100px;
+  }
+
+  .sidebar {
+    right: 50px;
+  }
+}
+
